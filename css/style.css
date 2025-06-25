@@ -262,7 +262,7 @@ color: black;
 
 /* watch story start */
 .bg-img{
-    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/watch-our-story/bg-img.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../assets/watch-our-story/bg-img.jpg');
     height: 70vh;
     width: 100%;
     background-size:cover;
@@ -579,7 +579,7 @@ background-color: #b9d555;
     .bg {
         position: relative;
         height: 120vh;
-        background-image: url('/assets/Bg-img/hero-img.jpg');
+        background-image: url('../assets/Bg-img/hero-img.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
