@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 1rem = 10px */
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-heading p {
+    margin-left: 22px;
+}
+
+.default-btn-color {
+    color: white;
+    background-color: #a5c926;
+}
+
+.first-header {
+    height: 32px;
+    font-size: 12px;
+    margin-left: 42px;
+    margin-right: 53px;
+}
+.email-link{
+    position: relative;
+    bottom: 3px;
+}
+.cart-icon {
+    font-size: 25px;
+}
+.navlink-icon{
+    font-size: 15px;
+    position: relative;
+    bottom: 3px; 
+}
+
+/* second header strat */
+.sec-nav-color {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sec-header {
+    padding-left: 64px;
+    padding-right: 50px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navlinks {
+    padding-left: 28px;
+    font-size: 15px;
+}
+
+/* navbar start */
+.navbar-heading {
+    padding-left: 8rem;
+    padding-right: 9rem;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.total-item a {
+    background-color: #a5c926;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-toggler-icon {
+    font-size: 13px;
+}
+
+.sec-nav-margin {
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+/* hero Section */
+.bg {
+    position: relative;
+    height: 92vh;
+    background-image: url('/assets/Bg-img/hero-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-card {
+    margin-top: 8rem;
+}
+.hero-card-one{
+width: 35rem;
+border-radius: 15px;
+}
+.hero-card .hero-card-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+
+.card-bg-heding-color {
+    color: #a5c926;
+    font-weight: 500;
+}
+
+.card-btn {
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.card-btn:hover {
+  background-color: #a5c926;
+  color: white;
+  transform: scale(1.2);
+}
+
+/* second card star */
+.sec-section {
+    margin-top: 9rem;
+}
+
+.radius {
+    border-radius: 24px;
+}
+
+.bg-color-first {
+    background-color: #ffc12c;
+}
+
+.bg-sec {
+    background-color: #fb416b;
+}
+
+.card-two {
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+
+.shop-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    transition: 1s;
+}
+.shop-btn:hover{
+background-color: white;
+color: black;
+ transform: scale(1.1);
+}
+.taddy-img {
+    position: relative;
+    height: 13rem;
+    bottom: 45px;
+}
+
+/* stuffed animals start */
+
+.stuff-animals {
+    margin-top: 8rem;
+    margin-bottom: 50px;
+}
+
+.see-toys {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.see-toys:hover{
+    color: black;
+}
+
+.toys {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+}
+
+.see-toy-btn-line {
+    margin-right: 15px;
+}
+
+.line-color {
+    background-color: #a5c926;
+}
+
+.bg-gray {
+    background-color: #ebebeb;
+}
+
+.progress:hover {
+    background-color: #a5c926;
+}
+
+.title {
+    font-weight: 400;
+}
+
+.solid {
+    border-top: 3px solid red;
+}
+
+/* toys-card-one start */
+.title-font-weight {
+    font-weight: 400;
+    font-size: 18px;
+}
+.toy-card-effect:hover{
+ transition: 1s;
+ transform:scale(1.1);
+ box-shadow: #bbb 1px 1px;
+}
+.toys-btn {
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.toys-btn:hover{
+    background-color: #a5c926;
+    color: white;
+}
+/* end */
+
+/* watch story start */
+.bg-img{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/watch-our-story/bg-img.jpg');
+    height: 70vh;
+    width: 100%;
+    background-size:cover;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+.watch-p{
+width: 70%;
+}
+.watch-story {
+    margin-top: 9rem;
+}
+.watch-story-content{
+    background: transparent;
+    border: 0;
+}
+.watch-story-p {
+    width: 65%;
+    margin-left: 190px;
+    padding-bottom: 25px;
+}
+
+.ply-btn {
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+/* made for webflow */
+.free-text {
+    width: 85%;
+}
+
+/* end */
+
+/* subcribe start */
+
+
+.location i {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 40px;
+}
+
+.subcribe-content {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 55px;
+}
+
+.lo-heading {
+    width: 66%;
+}
+
+.input-group input {
+    height: 50px;
+    border-radius: 24px;
+}
+
+.sub-btn {
+    width: 70%;
+    height: 55px;
+    padding: 10px 28px;
+    border-radius: 40px;
+}
+.sub-btn:hover{
+    background-color: #a5c926;
+    color: white;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+/* instagram start */
+.inst-heading {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.card-radius {
+    border-radius: 20px;
+}
+
+.see-more-btn {
+    height: 55px;
+    padding: 10px 28px;
+    border-radius: 40px;
+    margin-top: 5rem;
+}
+.see-more-btn:hover{
+    background-color: #a5c926;
+    color: white;
+    transition: 1s;
+    transform: scale(1.1);
+}
+/* footer start */
+.footer-section {
+margin-top: 8rem;
+}
+
+.footer-links-position {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    font-size: 19px;
+}
+.footer-link-space {
+    margin-right: 13px;
+}
+
+.footer-icon-position {
+    display: flex;
+    justify-content: end;
+}
+.footer-brand-name {
+    margin-left: 17px;
+    margin-top: 15px;
+}
+.footer-line-color{
+background-color: #b9d555;
+}
+.footer-link-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-line-padding{
+    padding-top: 35px;
+}
+.footer-last-link{
+    display: flex;
+    justify-content: flex-end;
+}
+/* responsible  */
+@media (max-width: 575.98px) {
+    .email-text {
+        display: none;
+    }
+
+    .first-header {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+ 
+  
+  .bg-img{
+    height:130vh;
+}
+    .card-one {
+        text-align: center;
+    }
+
+    .card-one-text {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .subcribe-content {
+      width: 100%;
+    }
+
+    .subcribe-btn {
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left:0px;
+        padding-right: 0px;
+    }
+
+    .email {
+        width: 100%;
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+
+    .card-two-revers {
+        display: flex;
+        flex-flow: column-reverse;
+        margin-top: 82px;
+    }
+
+    .card-one {
+        position: relative;
+        bottom: 40px;
+        text-align: center;
+    }
+
+    .card-two-t {
+        position: relative;
+        bottom: 8px;
+        text-align: center;
+    }
+
+    .watch-bg-img {
+        height: 50vh;
+        width: 10vw;
+        position: absolute;
+    }
+
+    .free-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .te-center {
+        text-align: center;
+    }
+
+    .footer-links {
+        font-size: 13px;
+    }
+    .footer-link-space {
+        margin-right: 0px;
+    }
+.footer-last-link{
+    display: flex;
+    justify-content: flex-start;
+}
+}
+
+@media (max-width: 768px) {
+    .first-header {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .sec-header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .email{
+        width: 100%;
+    }
+
+    .subcribe-btn {
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-one {
+        text-align: center;
+    }
+
+    .img-two {
+        margin-top: 50px;
+    }
+
+    .watch-story-p {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    /* subcribe start*/
+    /* footer start */
+    .footer-icon-position {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .first-header {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .navbar-heading {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .right-cart {
+        display: none;
+    }
+
+    .second-right-cart {
+        display: none;
+    }
+
+    .sec-nav-color {
+        background-color: white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .sec-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .bg {
+        position: relative;
+        height: 120vh;
+        background-image: url('/assets/Bg-img/hero-img.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .toys {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .watch-bg-img {
+        height: 100vh;
+    }
+    .subcribe-content {
+        height: auto;
+        width: 95%;
+        margin: auto;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .location {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .lo-heading {
+        width: 52%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .sub-btn {
+        width: 96%;
+    }
+
+    .subcribe-btn {
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .email {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
